@@ -16,6 +16,6 @@ public class DemoController {
 
     @GetMapping("/get/{id}")
     public String get(@PathVariable("id") String id){
-        return id + "-----get success！";
+        return id + "-----get success！ with version 2";
     }
 }
